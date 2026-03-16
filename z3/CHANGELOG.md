@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.19.15](https://github.com/prove-rs/z3.rs/compare/z3-v0.19.14...z3-v0.19.15) - 2026-03-16
+
+### Added
+
+- Implement Optimize Convenience Methods ([#520](https://github.com/prove-rs/z3.rs/pull/520)) (by @toolCHAINZ) - #520
+
+### Fixed
+
+- {Solver, Optimize}::check_and_get_model no longer take ownership ([#522](https://github.com/prove-rs/z3.rs/pull/522)) (by @toolCHAINZ) - #522
+
+### Other
+
+- Optimize::get_assertions ([#523](https://github.com/prove-rs/z3.rs/pull/523)) (by @toolCHAINZ) - #523
+
+### Contributors
+
+* @toolCHAINZ
+
 ## [0.19.14](https://github.com/prove-rs/z3.rs/compare/z3-v0.19.13...z3-v0.19.14) - 2026-03-13
 
 ### Other
